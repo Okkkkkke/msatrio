@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh Penempatan Kode JavaScript</title>
+</head>
+<body>
+  <script>
+    let username = prompt("Masukkan username:");
+    let password = prompt("Masukkan password:");
+
+    if (username === "Satrio") {
+      if (password === "123") {
+        alert("Selamat datang, Satrio!");
+        document.write("Terima kasih telah masuk ke dalam sistem.");
+      } else {
+        alert("Maaf, password yang Anda masukkan salah.");
+        document.write("Akses ditolak. Silakan coba lagi.");
+      }
+    } else {
+      alert("Maaf, username yang Anda masukkan salah.");
+      document.write("Akses ditolak. Silakan coba lagi.");
+    }
+  </script>
+</body>
+</html>
